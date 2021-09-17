@@ -46,6 +46,30 @@ a:hover {
   font-weight: bolder;
 }
 
-i {
-  color:#579299;
+.img-rounded {
+  border-radius: 10px;
+}
+
+/* .btn-green {
+  background-color: transparent;
+  border-color: 1px solid #305357;
+  border-radius: 4px;
+  padding: 4px 8px;
+} */
+  
+/* .btn-green:hover {
+  background-color: #579299;
+  border-color: 1px transparent #305357;
+  border-radius: 4px;
+  padding: 4px 8px;
+} */
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
 }
