@@ -1,4 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://css.gg/mail.css');
 @import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css');
+
+body {
+  background-color: white;
+  color: rgb(40, 40,40);
+  font-family: open Sans;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1, h2, a {
+  color: #305357;
+ }
+
+h1 {
+  font-family: allura;
+  font-size: 56px;
+  font-weight: 900;
+ }
+
+h2, h3 {
+  font-family: vollkorn;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: lighter ;
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:hover {
+  color:#579299;
+  font-weight: bolder;
+}
+
+i {
+  color:#579299;
+}
