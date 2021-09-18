@@ -51,6 +51,11 @@ i {
   font-size: 50px;
 }
 
+.main-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .img-rounded {
   border-radius: 10px;
 }
