@@ -1,0 +1,12 @@
+.btn-light {
+  font-weight: 500;
+  border: 1px solid #305357;
+  border-radius: 4px;   
+  padding: 4px 8px;
+}
+
+.btn-light:hover {
+  box-shadow: 0px 2px 2px #579299;
+  border: 1px solid #305357;
+  transition-duration: 0.2s;
+}
