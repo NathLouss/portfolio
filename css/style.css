@@ -6,7 +6,9 @@
 @import url('https://css.gg/mail.css');
 
 /* Components design */
+@import url('components/banner.css');
 @import url('components/button.css');
+@import url('components/card.css');
 @import url('components/container.css');
 @import url('components/icone.css');
 @import url('components/image.css');
@@ -18,16 +20,20 @@ body {
   font-family: open Sans;
   font-size: 16px;
   font-weight: lighter;
+  margin: 0px;
 }
 
-h1, h2, a, i {
+h2, a, i {
   color: #305357;
  }
 
 h1 {
+  color: white;
   font-family: allura;
-  font-size: 56px;
-  font-weight: 900;
+  font-size: 64px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
  }
 
 h2, h3 {
