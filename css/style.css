@@ -23,24 +23,24 @@ body {
   margin: 0px;
 }
 
+h1, h3 {
+  font-family: allura;
+}
+
 h2, a, i {
   color: #305357;
  }
 
 h1 {
   color: white;
-  font-family: allura;
   font-size: 64px;
   font-weight: 500;
   margin-top: 0px;
   margin-bottom: 0px;
  }
 
-h2, h3 {
-  font-family: vollkorn;
-}
-
 h2 {
+  font-family: vollkorn;
   font-size: 32px;
   font-weight: bolder;
 }

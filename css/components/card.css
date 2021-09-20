@@ -1,3 +1,4 @@
+/* Profil */
 .card-profil {
   display: flex;
   justify-content: center;
@@ -13,3 +14,7 @@
   margin-top: 0px;
 }
 
+/* Stack */
+.card-stack h3 {
+  font-size: 32px;
+}
