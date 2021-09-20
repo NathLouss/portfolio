@@ -6,8 +6,10 @@
 @import url('https://css.gg/mail.css');
 
 /* Components design */
-@import url('components/container.css');
 @import url('components/button.css');
+@import url('components/container.css');
+@import url('components/icone.css');
+@import url('components/image.css');
 
 /* Fonts & colors */
 body {
@@ -53,18 +55,6 @@ a:hover {
   font-weight: bolder;
 }
 
-i {
-  font-size: 50px;
-}
-
-.img-rounded {
-  border-radius: 10px;
-}
-
-.small-icone {
-  font-size: 16px;
-}
-
 .list-inline {
   list-style: none;
   padding-left: 0px;
@@ -81,8 +71,4 @@ i {
 
 .text-center {
   text-align: center;
-}
-
-#project-icone {
-  color: #579299;
 }
