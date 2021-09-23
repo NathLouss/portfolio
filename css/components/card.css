@@ -18,3 +18,14 @@
 .card-stack h3 {
   font-size: 32px;
 }
+
+/* Project */
+.card-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-pitch {
+  margin-left: 15px;
+}
