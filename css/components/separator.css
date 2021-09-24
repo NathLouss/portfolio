@@ -1,0 +1,7 @@
+.separator {
+  box-sizing: border-box;
+  background-color: rgb(86, 146, 153,0.2);
+  height: 1.5px;
+  width: 50vh;  
+}
+

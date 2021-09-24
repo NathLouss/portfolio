@@ -12,6 +12,7 @@
 @import url('components/container.css');
 @import url('components/icone.css');
 @import url('components/image.css');
+@import url('components/separator.css');
 
 /* Fonts & colors */
 body {
@@ -87,3 +88,4 @@ a:hover {
 .text-right {
   text-align: right;
 }
+
