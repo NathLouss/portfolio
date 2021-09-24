@@ -14,11 +14,6 @@
   margin-top: 0px;
 }
 
-/* Stack */
-.card-stack h3 {
-  font-size: 32px;
-}
-
 /* Project */
 .card-project {
   display: flex;
@@ -26,6 +21,17 @@
   align-items: center;
 }
 
-.card-pitch {
-  margin-left: 15px;
+.card-project img {
+  width: 400px;
+  height: auto;
 }
+
+.card-project div {
+  flex-grow: 1;
+}
+
+.card-pitch {
+  margin-left: 30px;
+}
+
+ 

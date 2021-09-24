@@ -9,7 +9,6 @@
 @import url('components/banner.css');
 @import url('components/button.css');
 @import url('components/card.css');
-@import url('components/carousel.css');
 @import url('components/container.css');
 @import url('components/icone.css');
 @import url('components/image.css');
@@ -47,7 +46,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: lighter ;
 }
 
