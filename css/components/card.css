@@ -19,11 +19,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 50px;
 }
 
 .card-project img {
-  width: 400px;
-  height: auto;
+  width: auto;
+  height: 300px;
 }
 
 .card-project div {
@@ -34,4 +35,10 @@
   margin-left: 30px;
 }
 
- 
+.card-pitch h3 {
+  margin-top: 0px;
+}
+
+/* .list-inline li {
+  padding: 0px 8px; 
+} */
