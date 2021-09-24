@@ -24,7 +24,7 @@
 
 .card-project img {
   width: auto;
-  height: 300px;
+  height: 250px;
 }
 
 .card-project div {
@@ -37,8 +37,6 @@
 
 .card-pitch h3 {
   margin-top: 0px;
+  margin-bottom: 15px;
 }
 
-/* .list-inline li {
-  padding: 0px 8px; 
-} */
