@@ -4,6 +4,11 @@
   padding: 0px 20px;
 }
 
+
+.container-project h2 {
+  font-size: 40px;
+}
+
 @media (max-width: 960px) {
   .container {
     width: 700px;
