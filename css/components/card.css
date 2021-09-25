@@ -14,6 +14,39 @@
   margin-top: 0px;
 }
 
+/* Presentation */
+.card-presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card-presentation h2{
+  text-align: center;
+}
+
+.card-about-me {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.card-tech {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.card-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Portfolio */
+.card-portfolio h2 {
+  font-size: 40px;
+}
+
 /* Project */
 .card-project {
   display: flex;
