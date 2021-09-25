@@ -2,20 +2,28 @@
   width: 1000px;
   margin: 0 auto;
   padding: 0px 20px;
+  /* position: relative; */
 }
 
+/* #green-leaf {
+  width: 300px;
+  position: absolute;
+  bottom: -30px;
+  right: -190px;
+} */
+
 @media (max-width: 960px) {
-  .container {
+  .main-container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  .container {
+  .main-container {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  .container {
+  .main-container {
     width: 300px;
   }
 }
