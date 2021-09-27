@@ -1,12 +1,9 @@
 /* Profil */
 .card-profil {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-items: center;
-}
-
-.card-profil div {
-  margin-left: 20px;
+  column-gap: 20px;
 }
 
 .card-profil p {
@@ -16,24 +13,13 @@
 
 /* Presentation */
 .card-presentation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  column-gap: 20p;
 }
 
 .card-presentation h2{
   text-align: center;
-}
-
-.card-about-me {
-  width: 50%;
-  margin-right: 10px;
-}
-
-.card-tech {
-  width: 50%;
-  margin-left: 10px;
 }
 
 .card-stack {

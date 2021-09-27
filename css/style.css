@@ -6,6 +6,7 @@
 @import url('https://css.gg/mail.css');
 
 /* Components design */
+@import url('components/avatar.css');
 @import url('components/banner.css');
 @import url('components/button.css');
 @import url('components/card.css');
