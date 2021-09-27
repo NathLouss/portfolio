@@ -2,15 +2,7 @@
   width: 1000px;
   margin: 0 auto;
   padding: 0px 20px;
-  /* position: relative; */
 }
-
-/* #green-leaf {
-  width: 300px;
-  position: absolute;
-  bottom: -30px;
-  right: -190px;
-} */
 
 @media (max-width: 960px) {
   .main-container {
