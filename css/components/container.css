@@ -13,6 +13,10 @@
   .container {
     width: 500px;
   }
+  #img-footer {
+    top: -120px !important;
+    width: 230px !important;
+  }
 }
 @media (max-width: 540px) {
   .container {
@@ -26,5 +30,9 @@
   }
   .card-profil {
     justify-items: center;
+  }
+  #img-footer {
+    top: -120px !important;
+    width: 230px !important;
   }
 }
