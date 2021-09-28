@@ -18,4 +18,13 @@
   .container {
     width: 300px;
   }
+  #img-banner {
+    position: absolute;
+    top: -60px;
+    left: -105px;
+    width: 300px;
+  }
+  .card-profil {
+    justify-items: center;
+  }
 }
