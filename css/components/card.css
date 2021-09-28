@@ -22,10 +22,14 @@
   text-align: center;
 }
 
-.card-stack {
+.card-tech {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+.card-tech h3 {
+ margin: 0px 10px
 }
 
 /* Portfolio */
