@@ -13,11 +13,8 @@
   .container {
     width: 500px;
   }
-  #img-footer {
-    top: -120px !important;
-    width: 230px !important;
-  }
 }
+
 @media (max-width: 540px) {
   .container {
     width: 300px;
@@ -35,8 +32,8 @@
     justify-items: center;
   }
   #img-footer {
-    top: -120px !important;
-    width: 230px !important;
+    top: -110px !important;
+    width: 180px !important;
   }
   i {
     font-size: 35px;
