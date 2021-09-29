@@ -1,9 +1,11 @@
-i {
-  font-size: 50px;
+.icone-contact {
+  color: white;
+  font-size: 25px;
+  padding: 0px 10px;
 }
 
-.small-icone {
-  font-size: 16px;
+.icone-contact:hover {
+  color:#579299;
 }
 
 .icone-tech {

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css');
-@import url('https://css.gg/mail.css');
+@import url('https://kit.fontawesome.com/9d010d1a2f.js');
 
 /* Components design */
 @import url('components/avatar.css');
@@ -31,13 +31,13 @@ h1, h3 {
   font-family: allura;
 }
 
-h2, a, i {
+h2, h3, a, i {
   color: #305357;
  }
 
 h1 {
   color: white;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 500;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -45,12 +45,11 @@ h1 {
 
 h2 {
   font-family: vollkorn;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bolder;
 }
 
 h3 {
-  color: #305357;
   font-size: 32px;
   font-weight: lighter ;
 }
@@ -64,6 +63,10 @@ a {
 a:hover {
   color:#579299;
   font-weight: bolder;
+}
+
+i {
+  font-size: 50px;
 }
 
 .list-inline {
