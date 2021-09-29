@@ -28,6 +28,9 @@
     left: -105px;
     width: 300px;
   }
+  #hello {
+    text-align: center;
+  }
   .card-profil {
     justify-items: center;
   }
