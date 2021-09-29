@@ -10,3 +10,7 @@
   border: 1px solid #305357;
   transition-duration: 0.2s;
 }
+
+#btn-resume {
+  margin: 30px 0px;
+}

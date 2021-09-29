@@ -2,14 +2,19 @@ i {
   font-size: 50px;
 }
 
-.medium-icone {
-  font-size: 20px;
-}
-
 .small-icone {
   font-size: 16px;
 }
 
-#project-icone {
-  color: #579299;
+.icone-tech {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 40px;
 }
+
+.icone-project {
+  color: #579299;
+  font-size: 20px;
+  margin: 0px 8px;
+}  

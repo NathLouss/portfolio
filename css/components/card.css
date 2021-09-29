@@ -18,18 +18,8 @@
   column-gap: 20p;
 }
 
-.card-presentation h2{
+.card-presentation h2 {
   text-align: center;
-}
-
-.card-tech {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.card-tech h3 {
- margin: 0px 10px
 }
 
 /* Portfolio */
