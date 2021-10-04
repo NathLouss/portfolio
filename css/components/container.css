@@ -1,9 +1,7 @@
 .container {
-  display: block;
   width: 80vw;
   margin: 0 auto;
   padding: 0px 20px;
-  scroll-behavior: smooth
 }
 
 @media (max-width: 960px) {
@@ -11,6 +9,7 @@
     width: 700px;
   }
 }
+
 @media (max-width: 720px) {
   .container {
     width: 500px;

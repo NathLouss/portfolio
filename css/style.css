@@ -17,6 +17,10 @@
 @import url('components/separator.css');
 
 /* Fonts & colors */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: white;
   color: rgb(40, 40,40);
