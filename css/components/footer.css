@@ -10,8 +10,8 @@
   margin: 0 auto;
 }
 
-.text-footer {
-  padding: 10px 0px;
+.text-footer p {
+  font-size: 12px;
 }
 
 #img-footer {

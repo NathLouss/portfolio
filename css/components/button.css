@@ -14,3 +14,12 @@
 #btn-resume {
   margin: 30px 0px;
 }
+
+#btn-scroller {
+  position: relative;
+  bottom: -7px;
+  right: 10px;
+  opacity: 0.2;
+  font-size: 30px;
+ }
+
