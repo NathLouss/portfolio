@@ -13,7 +13,6 @@
 @import url('components/footer.css');
 @import url('components/icone.css');
 @import url('components/image.css');
-@import url('components/presentation.css');
 @import url('components/separator.css');
 
 /* Fonts & colors */
@@ -30,7 +29,7 @@ body {
   margin: 0px;
 }
 
-h1, h3 {
+#hello p, h1, h3 {
   font-family: allura;
 }
 
@@ -38,13 +37,33 @@ h2, h3, a, i {
   color: #305357;
  }
 
-h1 {
+#hello p {
   color: white;
   font-size: 80px;
   font-weight: 500;
   margin-top: 0px;
   margin-bottom: 0px;
  }
+
+h1, #hello h2 {
+  color: white;
+  font-family: open Sans;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 0px;
+  }
+
+#hello p span {
+  position: relative;
+}
+
+/* #hello {
+  position: absolute;
+} */
+
+#hello h1 strong, #hello h2 strong {
+  font-weight: lighter;
+}
 
 h2 {
   font-family: vollkorn;
