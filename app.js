@@ -8,9 +8,9 @@ window.addEventListener('load', () => {
   const TL = gsap.timeline({paused: true});
 
   TL
-  .staggerFrom(titleSpans, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
-  .staggerFrom(img, 1, {left: -200, opacity:0, ease: "power2.out"}, 0.3, '-=2')
-  .from(medias, 1, {transform: "scale(0)", ease: "power2.out"}, '-=2');
+  .from(img, {opacity:0, duration:4, rotation: 45, ease: "power2.out"})
+  .staggerFrom(titleSpans, 0.7, {top: -50, opacity: 0, ease: "power2.out"}, 0.3, '-=4')
+  .staggerFrom(medias, 1, {transform: "scale(0)", ease: "easeInOut"}, 0.3, '-=4');
 
   TL.play();
 })
