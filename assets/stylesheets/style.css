@@ -115,3 +115,7 @@ i {
 .text-right {
   text-align: right;
 }
+
+.relative {
+  position: relative;
+}

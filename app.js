@@ -38,3 +38,11 @@ tech.forEach((tech) => {
  .typeString('...')
  .pauseFor(1000)
  .start();
+
+
+//  animation btn-scroller 
+// const leaf = document.getElementById('img-footer');
+
+// leaf.addEventListener('mouseover', (event) => {
+//   event.currentTarget.classList.toggle("mv");
+// });
