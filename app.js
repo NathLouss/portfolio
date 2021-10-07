@@ -15,6 +15,17 @@ window.addEventListener('load', () => {
   TL.play();
 })
 
+// animation skills
+
+const tech = document.querySelectorAll('.icone-tech li i');  
+
+tech.forEach((tech) => {
+  tech.addEventListener('mouseover', (event) => {
+    event.currentTarget.classList.add("icone-shadow");
+      setTimeout(() => tech.classList.add("no-shadow"), 1000);
+      setTimeout(() => tech.classList.remove("icone-shadow", "no-shadow"), 2000);
+   });
+});
 
 //  animation etc
  const etc = document.getElementById('etc');
@@ -26,4 +37,4 @@ window.addEventListener('load', () => {
  .changeDelay(200)
  .typeString('...')
  .pauseFor(1000)
- .start()
+ .start();
