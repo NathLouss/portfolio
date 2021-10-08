@@ -56,3 +56,49 @@ new Typewriter(txt, {
 .typeString('fun !')
 .pauseFor(3000)
 .start()
+
+// animation slideshow Eventpik
+var EslideIndex = 1;
+EshowSlides(EslideIndex);
+
+function EplusSlides(n) {
+  EshowSlides(EslideIndex += n);
+}
+
+function EcurrentSlide(n) {
+  EshowSlides(EslideIndex = n);
+}
+
+function EshowSlides(n) {
+  var i;
+  var Eslides = document.getElementsByClassName("ESlides");
+  if (n > Eslides.length) {EslideIndex = 1}    
+  if (n < 1) {EslideIndex = Eslides.length}
+  for (i = 0; i < Eslides.length; i++) {
+      Eslides[i].style.display = "none";  
+  }
+  Eslides[EslideIndex-1].style.display = "block";  
+}
+
+// animation slideshow Buddy Biker
+var BBslideIndex = 1;
+BBshowSlides(BBslideIndex);
+
+function BBplusSlides(n) {
+  BBshowSlides(BBslideIndex += n);
+}
+
+function BBcurrentSlide(n) {
+  BBshowSlides(BBslideIndex = n);
+}
+
+function BBshowSlides(n) {
+  var i;
+  var BBslides = document.getElementsByClassName("BBSlides");
+  if (n > BBslides.length) {BBslideIndex = 1}    
+  if (n < 1) {BBslideIndex = BBslides.length}
+  for (i = 0; i < BBslides.length; i++) {
+      BBslides[i].style.display = "none";  
+  }
+  BBslides[BBslideIndex-1].style.display = "block";  
+}
