@@ -119,3 +119,19 @@ i {
 .relative {
   position: relative;
 }
+
+.display {
+  display: flex;
+} 
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.align-item-center {
+  align-items: center;
+}

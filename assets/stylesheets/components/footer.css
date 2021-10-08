@@ -12,6 +12,7 @@
 
 .text-footer p {
   font-size: 12px;
+  padding: 2px;
 }
 
 #img-footer {
@@ -21,24 +22,13 @@
   width: 230px;
   animation: animate 8s ease infinite;
 }
-/* 
-@keyframes animate { 
-  0% { top: -185px;}
-  50% { top: -195px;} 
-  100% { top: -185px;}
-} */
-
-@keyframes animate {
-  0%,
-  50%,
-  100% {
+/* @keyframes animate {
+  0%, 50%, 100% {
     opacity: 1;
     top: -185px;
   }
-
-  25%,
-  75% {
+  25%, 75% {
     opacity: 0.5;
     top: -195px;
   }
-}
+} */

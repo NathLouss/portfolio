@@ -40,9 +40,19 @@ tech.forEach((tech) => {
  .start();
 
 
-//  animation btn-scroller 
-// const leaf = document.getElementById('img-footer');
+//  animation text-footer
+const txt = document.getElementById('type');
 
-// leaf.addEventListener('mouseover', (event) => {
-//   event.currentTarget.classList.toggle("mv");
-// });
+new Typewriter(txt, {
+  deleteSpeed: 70,
+  loop: true
+})
+.typeString('passion !')
+.pauseFor(3000)
+.deleteChars(9)
+.typeString('style !')
+.pauseFor(3000)
+.deleteChars(7)
+.typeString('fun !')
+.pauseFor(3000)
+.start()
