@@ -1,10 +1,17 @@
-.icone-contact {
-  color: white;
-  font-size: 25px;
-  padding: 0px 10px;
+/* icone bar medias */
+#icone-bar {
+  top: 15px;
+  right: 10px;
+  width: fit-content;
 }
 
-.icone-contact:hover {
+.icone-medias {
+  color: white;
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.icone-medias:hover {
   color:#579299;
 }
 

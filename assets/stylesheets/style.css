@@ -17,64 +17,50 @@
 @import url('components/slideshow.css');
 
 /* Fonts & colors */
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: white;
   color: rgb(40, 40,40);
   font-family: open Sans;
   font-size: 16px;
-  font-weight: lighter;
-  margin: 0px;
 }
 
-#hello p, h1, h3 {
-  font-family: allura;
-}
-
-h2, h3, a, i {
-  color: #305357;
- }
-
-#hello p {
-  color: white;
-  font-size: 80px;
-  font-weight: 500;
-  margin-top: 0px;
-  margin-bottom: 0px;
- }
-
-h1, #hello h2 {
-  color: white;
+h1, #intro h2 {
   font-family: open Sans;
   font-size: 16px;
-  font-weight: lighter;
-  margin: 0px;
-  }
-
-#hello p span {
-  position: relative;
-}
-
-/* #hello {
-  position: absolute;
-} */
-
-#hello h1 strong, #hello h2 strong {
-  font-weight: lighter;
 }
 
 h2 {
   font-family: vollkorn;
   font-size: 40px;
-  font-weight: bolder;
+}
+
+h3, #intro p {
+  font-family: allura;
 }
 
 h3 {
   font-size: 32px;
-  font-weight: lighter ;
+}
+
+#intro p {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+h2, h3, a, i {
+  color: #305357;
+}
+
+h1, #intro h2, #intro p {
+  color: white;
+}
+
+body, h1, #intro h2, #intro h1 strong, #intro h2 strong, h3 {
+  font-weight: lighter;
+}
+
+h2, a:hover {
+  font-weight: bolder;
 }
 
 a {
@@ -85,16 +71,25 @@ a {
 
 a:hover {
   color:#579299;
-  font-weight: bolder;
 }
 
 i {
   font-size: 50px;
 }
 
+/* behaviours */
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .list-inline {
   list-style: none;
-  padding: 0px;
 }
 
 .list-inline li {
@@ -121,6 +116,10 @@ i {
   position: relative;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .display {
   display: flex;
 } 
@@ -133,6 +132,10 @@ i {
   justify-content: space-around;
 }
 
-.align-item-center {
+.align-items-center {
   align-items: center;
+}
+
+.grid {
+  display: grid;
 }

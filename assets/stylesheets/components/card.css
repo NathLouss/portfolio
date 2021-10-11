@@ -1,16 +1,3 @@
-/* Profil */
-.card-profil {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  align-items: center;
-  column-gap: 20px;
-}
-
-.card-profil p {
-  color: white;
-  margin-top: 0px;
-}
-
 /* Presentation */
 .card-presentation {
   display: grid;

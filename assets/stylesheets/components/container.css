@@ -26,10 +26,10 @@
     left: -105px;
     width: 300px;
   }
-  #hello {
+  #intro {
     text-align: center;
   }
-  .card-profil {
+  #profil {
     justify-items: center;
   }
   #img-footer {

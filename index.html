@@ -15,32 +15,32 @@
   </head>
 
   <body>
-    <header class="banner">
+    <header class="banner relative">
 
-      <img src="assets/images/leaf_horiz_white.png" id="img-banner" alt="white leaf">
+      <img src="assets/images/leaf_horiz_white.png" id="img-banner" class="absolute" alt="draw white leaf">
 
       <!-- link medias -->
-      <div class="icone-contact" id="icone-banner">
-        <ul class="list-inline text-left">
-          <li class="connect">
-            <a href="https://www.linkedin.com/in/nathalieloussouarn/" title="Connect with me on Linkedin" target="_blank" class="link"><i class="devicon-linkedin-plain icone-contact"></i></a>
+      <div class="absolute" id="icone-bar">
+        <ul class="list-inline">
+          <li class="medias">
+            <a href="https://www.linkedin.com/in/nathalieloussouarn/" title="Connect with me on Linkedin" target="_blank" class="link"><i class="devicon-linkedin-plain icone-medias"></i></a>
           </li>
-          <li class="connect">
-            <a href="https://github.com/NathLouss" title="See my code on Github" target="_blank"><i class="devicon-github-original icone-contact"></i></a>
+          <li class="medias">
+            <a href="https://github.com/NathLouss" title="See my code on Github" target="_blank"><i class="devicon-github-original icone-medias"></i></a>
           </li>
-          <li class="connect">
-            <a href="mailtoo:loussouarn.nathalie@gmail.com" title="Send me a email" target="_blank" alt><i class="fas fa-envelope icone-contact"></i></a>
+          <li class="medias">
+            <a href="mailtoo:loussouarn.nathalie@gmail.com" title="Send me a email" target="_blank" alt><i class="fas fa-envelope icone-medias"></i></a>
           </li>
         </ul>
       </div>
 
-      <!-- welcoming presentation -->
-      <div class="card-profil">
-        <div class="avatar">
-          <img src="assets/images/photo_nathalie_loussouarn.jpg" width="200px" class="img-rounded" alt="photo nathalie loussouarn">
+      <!-- picture & introduction -->
+      <div id="profil" class="grid align-items-center">
+        <div class="text-right">
+          <img src="assets/images/photo_nathalie_loussouarn.jpg" id="img-profil" alt="photo de nathalie loussouarn">
         </div>
-        <div id="hello">
-          <p class="title"><span>H</span><span>e</span><span>l</span><span>l</span><span>o</span><span> </span><span>!</span></p>
+        <div id="intro" class="align-items-center">
+          <p class="hello"><span class="relative">H</span><span class="relative">e</span><span class="relative">l</span><span class="relative">l</span><span class="relative">o</span><span class="relative"> </span><span class="relative">!</span></p>
           <h1>My name is <strong>Nathalie Loussouarn</strong>.</h1>
           <h2>I am a French <strong>developer based near Bordeaux.</strong></h2>
         </div>
