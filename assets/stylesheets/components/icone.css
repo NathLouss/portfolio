@@ -24,12 +24,7 @@ i {
   margin: 15px 40px;
 }
 
-.icone-project {
-  color: #579299;
-  font-size: 20px;
-  margin: 0 8px;
-}  
-
+/* icone tech stack animation */
 .icone-shadow {
   text-shadow: 0 0 2px white, 0 0 0.1em #579299, 0 0 0.2em #579299;
   transition: 0.5s ease-out;
@@ -38,4 +33,14 @@ i {
 .no-shadow {
   text-shadow: 1px 1px 2px white, 0 0 0.1em white, 0 0 0.2em white;
   transition: 1s ease-out;
+}
+ /* icone portfolio */
+.icone-project {
+  color: #579299;
+  font-size: 20px;
+  margin: 0 8px;
+}  
+
+#stack-project {
+margin: 20px 0;
 }

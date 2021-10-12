@@ -1,8 +1,7 @@
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 0 10px;
 }
 
 /* Next & previous buttons */
