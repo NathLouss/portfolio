@@ -1,7 +1,15 @@
 /* Presentation */
 #presentation {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   column-gap: 20p;
+}
+
+#presentation h3 {
+  padding-bottom: 10px;
+}
+
+#aboutme {
+  padding-top: 10px;
 }
 
 /* Portfolio */
