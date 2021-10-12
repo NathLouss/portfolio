@@ -1,8 +1,21 @@
 .container {
   width: 80vw;
   margin: 0 auto;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
+
+/* @media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+
+} */
 
 @media (max-width: 960px) {
   .container {

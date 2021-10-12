@@ -48,25 +48,27 @@
     </header>
     
     <main class="container">
-      <section class="card-presentation">
+      <section id="presentation" class="grid">
+        <!-- About Me -->
         <div>
-          <h2>About me</h2>
+          <h2 class="text-center">About me</h2>
             <p class="text-justify">Parisian by birth, I left at 24 with a master’s degree in management in my pocket and a one-way ticket to New Caledonia. For 7 years, I worked in an import and distribution company, becoming an expert in administrative and commercial management.</p>
             <p class="text-justify">When I arrived in the Bordeaux region, I needed a change. After training as a self-taught and professional, I received several awards and started as an entrepreneur in creative event baking.</p>
             <p class="text-justify">Undermined by the year 2020, I decided to bounce back by learning the code with the Wagon Bordeaux.
             I want to continue my professional reconversion through the double course "Apprentis Tech" in partnership with OpenClassrooms. I am looking for a company to carry out a work-study in contract of professionalization of a duration of 2 years.</p>
             <p>Feel free to consult my resume for further information on my work experiences and knowledge.</p>
-            <div id="btn-resume" class="text-center">
-              <a href="assets/documents/CV_NathalieLoussouarn_DevWebAlternance.pdf" target="blank" class="btn-light">View Resume</a>
-            </div>
+              <div id="btn-resume" class="text-center">
+                <a href="assets/documents/CV_NathalieLoussouarn_DevWebAlternance.pdf" target="_blank" class="btn-light">View Resume</a>
+              </div>
         </div>
           
+        <!-- Tech stack -->
         <div>
-          <h2>My teck stack</h2>
+          <h2 class="text-center">My teck stack</h2>
           <div>
             <div class="text-center">
               <h3>Front</h3>
-                <ul class="list-inline icone-tech">
+                <ul id="icone-tech" class="list-inline flex space-around align-items-center">
                   <li><i class="devicon-html5-plain"></i></li>
                   <li><i class="devicon-css3-plain"></i></li>
                   <li><i class="devicon-javascript-plain"></i></li>
@@ -75,7 +77,7 @@
             </div>
             <div class="text-center">
               <h3>Back</h3>
-                <ul class="list-inline icone-tech">
+                <ul id="icone-tech" class="list-inline flex space-around align-items-center">
                   <li><i class="devicon-ruby-plain"></i></li>
                   <li><i class="devicon-rails-plain"></i></li>
                   <li><i class="devicon-postgresql-plain"></i></li>
@@ -84,7 +86,7 @@
             </div>
             <div class="text-center">
               <h3>Tools</h3>
-                <ul class="list-inline icone-tech">
+                <ul id="icone-tech" class="list-inline flex space-around align-items-center">
                   <li><i class="devicon-windows8-original"></i></li>
                   <li><i class="devicon-figma-plain"></i></li>
                   <li><i class="devicon-git-plain"></i></li>
@@ -203,7 +205,7 @@
         <img src="assets/images/half_leaf_green.png" id="img-footer" alt="green leaf">
       </div>
       <div class="separator-footer"></div>
-      <div class="text-footer display justify-content-center">
+      <div class="text-footer flex justify-content-center">
         <p>Developed by Nath, with </p>
         <p id="type"> passion.</p> 
       </div>

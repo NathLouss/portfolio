@@ -1,0 +1,10 @@
+/* Presentation */
+#presentation {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 20p;
+}
+
+/* Portfolio */
+.card-portfolio {
+  padding-bottom: 20px;
+}

@@ -1,3 +1,7 @@
+i {
+  font-size: 50px;
+}
+
 /* icone bar medias */
 #icone-bar {
   top: 15px;
@@ -15,21 +19,19 @@
   color:#579299;
 }
 
-.icone-tech {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+/* icone tech stack */
+#icone-tech {
   margin: 10px 40px;
 }
 
 .icone-project {
   color: #579299;
   font-size: 20px;
-  margin: 0px 8px;
+  margin: 0 8px;
 }  
 
 .icone-shadow {
-  text-shadow: 0px 0px 2px white, 0 0 0.1em #579299, 0 0 0.2em #579299;
+  text-shadow: 0 0 2px white, 0 0 0.1em #579299, 0 0 0.2em #579299;
   transition: 0.5s ease-out;
 }
 

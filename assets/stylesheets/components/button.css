@@ -1,3 +1,7 @@
+#btn-resume {
+  margin: 30px 0;
+}
+
 .btn-light {
   font-weight: 500;
   border: 1px solid #305357;
@@ -6,20 +10,6 @@
 }
 
 .btn-light:hover {
-  box-shadow: 0px 2px 2px #579299;
-  border: 1px solid #305357;
+  box-shadow: 0 2px 2px #579299;
   transition-duration: 0.2s;
 }
-
-#btn-resume {
-  margin: 30px 0px;
-}
-
-/* #btn-scroller {
-  position: relative;
-  bottom: -7px;
-  right: 10px;
-  opacity: 0.2;
-  font-size: 30px;
- } */
-
