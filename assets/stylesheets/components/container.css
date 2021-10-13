@@ -4,12 +4,8 @@
   padding: 0 20px;
 }
 
-@media screen and (max-width: 1200px) {
-  /* #presentation h3 {
-    padding: 7px 0;
-  } */
-}
-
+/* Responsive design */
+ /* Laptop 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   #btn-resume {
     position: absolute;
@@ -18,11 +14,9 @@
   #portfolio {
     margin: 85px 0 30px 0 !important;
   }
-  #card-project {
-    margin: 50px 0 !important;
-  }
 }
 
+ /* Tablet */
 @media screen and (min-width:426px) and (max-width: 768px) {
   #img-banner {
     top: -35px !important;
@@ -51,11 +45,12 @@
     left: 165px;
   }
   #img-footer {
-    top: -185px !important;
+    top: -158px !important;
     width: 205px !important;
   }
 }
 
+ /* Mobile */
 @media screen and (max-width: 426px) {
   #img-banner {
     top: -30px !important;
@@ -87,7 +82,7 @@
     margin: 0 !important;
   }
   #img-footer {
-    top: -110px !important;
-    width: 130px !important;
+    top: -97px !important;
+    width: 143px !important;
   }
 }

@@ -212,17 +212,30 @@
       </section>      
     </main>
           
-    <footer class="footer">
+    <footer class="relative">
+      <!-- draw  -->
       <div class="relative">
-        <img src="assets/images/half_leaf_green.png" id="img-footer" alt="green leaf">
+        <img src="assets/images/half_leaf_green.png" id="img-footer" alt="draw green leaf">
       </div>
-      <div class="separator-footer"></div>
-      <div class="text-footer flex justify-content-center">
-        <p>Developed by Nath, with </p>
-        <p id="type"> passion.</p> 
+      <!-- division line -->
+      <div id="separator-footer"></div>
+      <!-- text -->
+      <div id="text-footer" class="flex column justify-content-center">
+        <div class="flex justify-content-center" >
+          <p>Developed by Nathalie, with </p>
+          <!-- text with animation js -->
+          <p id="type">passion !</p> 
+        </div>
+        <div class="flex justify-content-center align-items-center">
+          <p>Hosted by Netlify </p>
+            <a href="https://www.netlify.com/" target="_blank" alt="icone Netlify">
+              <img src="assets/images/netlify_icon.png" id="netlify">
+            </a>
+        </div>
       </div>
     </footer>
 
+    <!-- Javascript -->
     <script src="https://kit.fontawesome.com/9d010d1a2f.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>

@@ -142,3 +142,6 @@ html {
   align-items: center;
 }
 
+.column {
+  flex-direction: column;
+}

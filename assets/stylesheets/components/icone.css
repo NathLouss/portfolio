@@ -44,3 +44,9 @@ i {
 #stack-project {
 margin: 20px 0;
 }
+
+/* icone link footer */
+#netlify {
+  width: 15px;
+  font-size: 15px;
+}

@@ -27,36 +27,6 @@ tech.forEach((tech) => {
    });
 });
 
-//  animation etc
- const etc = document.getElementById('etc');
-
- new Typewriter(etc, {
-   loop: true,
-   cursor: ''
-  })
- .changeDelay(200)
- .typeString('...')
- .pauseFor(1000)
- .start();
-
-
-//  animation text-footer
-const txt = document.getElementById('type');
-
-new Typewriter(txt, {
-  deleteSpeed: 70,
-  loop: true
-})
-.typeString('passion !')
-.pauseFor(3000)
-.deleteChars(9)
-.typeString('style !')
-.pauseFor(3000)
-.deleteChars(7)
-.typeString('fun !')
-.pauseFor(3000)
-.start()
-
 // animation slideshow Eventpik
 var EslideIndex = 1;
 EshowSlides(EslideIndex);
@@ -102,3 +72,33 @@ function BBshowSlides(n) {
   }
   BBslides[BBslideIndex-1].style.display = "block";  
 }
+
+//  animation etc
+ const etc = document.getElementById('etc');
+
+ new Typewriter(etc, {
+   loop: true,
+   cursor: ''
+  })
+ .changeDelay(200)
+ .typeString('...')
+ .pauseFor(1000)
+ .start();
+
+
+//  animation text-footer
+const txt = document.getElementById('type');
+
+new Typewriter(txt, {
+  deleteSpeed: 70,
+  loop: true
+})
+.typeString('passion !')
+.pauseFor(1000)
+.deleteChars(9)
+.typeString('style !')
+.pauseFor(1000)
+.deleteChars(7)
+.typeString('fun !')
+.pauseFor(1000)
+.start()

@@ -1,8 +1,5 @@
-.footer {
-  position: relative;
-}
-
-.separator-footer {
+/* division line */
+#separator-footer {
   box-sizing: border-box;
   background-color: rgb(86, 146, 153,0.2);
   height: 1px;
@@ -10,14 +7,8 @@
   margin: 0 auto;
 }
 
-.text-footer p {
+/* text */
+#text-footer p {
   font-size: 12px;
-  padding: 2px;
-}
-
-#img-footer {
-  position: absolute; 
-  top: -210px;
-  right: 0;
-  width: 230px;
+  padding: 5px 2px;
 }
