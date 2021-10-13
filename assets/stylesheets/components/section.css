@@ -14,5 +14,14 @@
 
 /* Portfolio */
 #portfolio {
-  padding-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+#portfolio h2 {
+  margin: 0 0 30px 0;
 }

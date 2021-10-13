@@ -52,14 +52,26 @@
   #profil {
     justify-items: center;
   }
-  #img-footer {
-    top: -110px !important;
-    width: 130px !important;
-  }
   #icone-tech {
     margin: 5px 10px !important;
   }
   #icone-tech i {
     font-size: 45px !important;
+  }
+  .slideshow-container {
+    margin: 0 !important;
+  }
+  #portfolio {
+    padding: 20px 10px !important;
+  }
+  #card-project {
+    margin: 30px 0 !important;
+  }
+  .card-screenshot {
+    margin: 0 !important;
+  }
+  #img-footer {
+    top: -110px !important;
+    width: 130px !important;
   }
 }
