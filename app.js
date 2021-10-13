@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
 
 // animation skills
 
-const tech = document.querySelectorAll('.icone-tech li i');  
+const tech = document.querySelectorAll('#icone-tech li i');  
 
 tech.forEach((tech) => {
   tech.addEventListener('mouseover', (event) => {
