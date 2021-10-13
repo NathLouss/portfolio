@@ -14,4 +14,31 @@
   margin: 0 10px;
 }
 
+#intro h2 {
+  font-family: open Sans;
+  font-size: 16px;
+}
 
+#intro p {
+  font-family: allura;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+#intro h2, #intro p {
+  color: white;
+}
+
+#intro h2, #intro h1 strong, #intro h2 strong {
+  font-weight: lighter;
+}
+
+#intro h2 {
+  margin: 0;
+}
+
+#intro h3 {
+  font-family: open Sans;
+  font-size: 16px;
+  color: white;
+}
