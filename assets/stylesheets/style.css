@@ -17,6 +17,13 @@
 @import url('components/separator.css');
 @import url('components/slideshow.css');
 
+/* Global reset */
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* Fonts & colors */
 body {
   background-color: white;
@@ -65,12 +72,6 @@ a:hover {
 }
 
 /* behaviours */
-*, ::before, ::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 html {
   scroll-behavior: smooth;
 }

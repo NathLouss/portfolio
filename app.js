@@ -1,4 +1,4 @@
-// animation header elements
+ // animation header elements
 const titleSpans = document.querySelectorAll('.hello span');
 const medias = document.querySelectorAll('.medias');
 const img = document.getElementById('img-banner');
