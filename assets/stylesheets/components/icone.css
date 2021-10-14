@@ -2,6 +2,15 @@ i {
   font-size: 50px;
 }
 
+#scroll  {
+  bottom: 15px;
+}
+
+#scroll i {
+  color: white;
+  font-size: 35px;
+}
+
 /* icone bar medias */
 #icone-bar {
   top: 15px;

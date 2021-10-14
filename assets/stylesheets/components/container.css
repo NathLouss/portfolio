@@ -15,6 +15,9 @@
   #profil {
     flex-grow: 2;
   }
+  #scroll i {
+    font-size: 35px !important;
+  }
 }
 
  /* Laptop 1024px */
@@ -34,6 +37,12 @@
     top: -35px !important;
     left: -100px !important;
     width: 315px !important;
+  }
+  #scroll {
+    bottom: 10px !important;
+  }
+  #scroll i {
+    font-size: 30px !important;
   }
   #btn-resume {
     position: absolute;
@@ -71,6 +80,12 @@
   }
   #intro {
     text-align: center;
+  }
+  #scroll {
+    bottom: 5px !important;
+  }
+  #scroll i {
+    font-size: 20px !important;
   }
   #profil {
     justify-items: center;
