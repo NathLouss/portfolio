@@ -5,6 +5,18 @@
 }
 
 /* Responsive design */
+ /* Laptop L */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  #img-banner {  
+    top: -25px !important;
+    left: -50px !important;
+    width: 350px !important;
+  }
+  #profil {
+    flex-grow: 2;
+  }
+}
+
  /* Laptop 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   #btn-resume {
