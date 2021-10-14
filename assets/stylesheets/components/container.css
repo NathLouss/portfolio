@@ -75,6 +75,13 @@
   #portfolio {
     padding: 20px 10px !important;
   }
+  #btn-mobile-display {
+    display: flex;
+    justify-content: center;
+  }
+  #btn-mobile-display {
+    align-items: center;
+  }
   #card-project {
     margin: 30px 0 !important;
   }

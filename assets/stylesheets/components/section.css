@@ -12,11 +12,16 @@
   padding-top: 10px;
 }
 
+#aboutme a {
+  color: #569299;
+  text-decoration: underline;
+}
+
 /* Portfolio */
 #portfolio {
   box-sizing: border-box;
   border: 1px solid transparent;
-  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 30px rgb(86 146 153 / 15%);
   border-radius: 4px;
   padding: 20px;
   margin: 30px 0;
