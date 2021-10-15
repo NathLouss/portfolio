@@ -24,6 +24,11 @@
   padding: 0;
 }
 
+/*  */
+html {
+  height: 100%;
+}
+
 /* Fonts & colors */
 body {
   background-color: white;
