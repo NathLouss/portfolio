@@ -1,7 +1,7 @@
 .banner {
   background-color: #305357;
   padding: 60px 0;
-  height: 100vh;
+  height: 100vh !important;
   position: relative;
 }
 
@@ -31,7 +31,7 @@
 }
 
 #intro h2, #intro h1 strong, #intro h2 strong, #intro h3 strong {
-  font-weight: lighter;
+  font-weight: lighter !important;
 }
 
 #intro h2 {
