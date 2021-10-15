@@ -38,6 +38,9 @@
     left: -100px !important;
     width: 315px !important;
   }
+  #intro p {
+    font-size: 60px !important;
+  }
   #scroll {
     bottom: 10px !important;
   }
@@ -80,6 +83,15 @@
   }
   #intro {
     text-align: center;
+  }
+  #intro p {
+    font-size: 70px !important;
+  }
+  #img-profil {
+    width: 180px !important;
+  }
+  .arrow-container {
+    width: 20px !important;
   }
   #scroll {
     bottom: 5px !important;
