@@ -1,5 +1,6 @@
 .container {
   width: 90%;
+  height: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -47,6 +48,9 @@
 
  /* Laptop 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  #presentation {
+    min-height: 100vh !important;
+  }
   #btn-resume {
     position: absolute;
     left: 460px;
@@ -84,7 +88,7 @@
     padding-bottom: 29px;
   }
   #portfolio {
-    margin: 50px 0 30px 0 !important;
+    margin: 95px 0 30px 0 !important;
   }
   #card-project {
     margin: 30px 0 !important;
@@ -137,6 +141,7 @@
   }
   #portfolio {
     padding: 20px 10px !important;
+    margin-top: 60px !important;
   }
   #btn-mobile-display {
     display: flex;
