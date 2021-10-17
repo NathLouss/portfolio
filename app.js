@@ -1,5 +1,5 @@
  // animation header elements
-const titleSpans = document.querySelectorAll('.hello span');
+const title = document.querySelectorAll('h1');
 const medias = document.querySelectorAll('.medias');
 const img = document.getElementById('img-banner');
 
@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 
   TL
   .from(img, {opacity:0, duration:4, rotation: 45, ease: "power2.out"})
-  .staggerFrom(titleSpans, 0.7, {top: -50, opacity: 0, ease: "power2.out"}, 0.3, '-=4')
+  .from(title, {opacity:0, duration:4, ease: "power2.out"}, 0.3, '-=4')
   .staggerFrom(medias, 1, {transform: "scale(0)", ease: "easeInOut"}, 0.3, '-=4');
 
   TL.play();

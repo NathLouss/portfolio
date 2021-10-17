@@ -38,8 +38,9 @@ body {
 }
 
 h1 {
-  font-family: open Sans;
-  font-size: 16px;
+  font-family: allura;
+  font-size: 50px;
+  font-weight: 500;
   color: white;
 }
 
@@ -131,6 +132,10 @@ html {
 
 .align-items-center {
   align-items: center;
+}
+
+.align-content-center {
+  align-content: center;
 }
 
 .column {

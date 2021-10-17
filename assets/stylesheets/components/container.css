@@ -5,6 +5,31 @@
 }
 
 /* Responsive design */
+/* Laptop 4K */
+@media screen and (min-width: 1440px) {
+  #img-banner {  
+    top: -35px !important;
+    left: -50px !important;
+    width: 540px !important;
+  }
+  .icone-medias {
+    font-size: 45px !important;
+    padding: 20px !important;
+  }
+  #profil {
+    flex-grow: 2;
+  }
+  #img-profil {
+    width: 350px !important;
+  }
+  h1 {
+    font-size: 80px !important;
+  }
+  h2,h3 {
+    font-size: 30px !important;
+  }
+}
+
  /* Laptop L */
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   #img-banner {  
@@ -15,8 +40,8 @@
   #profil {
     flex-grow: 2;
   }
-  #scroll i {
-    font-size: 35px !important;
+  h1 {
+    font-size: 58px !important;
   }
 }
 
@@ -38,14 +63,14 @@
     left: -100px !important;
     width: 315px !important;
   }
-  #intro p {
-    font-size: 60px !important;
+  #avatar {
+    text-align: center;
   }
-  #scroll {
-    bottom: 10px !important;
+  #intro {
+    text-align: center;
   }
-  #scroll i {
-    font-size: 30px !important;
+  h1 {
+    font-size: 42px !important;
   }
   #btn-resume {
     position: absolute;
@@ -84,8 +109,9 @@
   #intro {
     text-align: center;
   }
-  #intro p {
-    font-size: 70px !important;
+  h1 {
+    font-size: 42px !important;
+    margin-top: 20px !important;
   }
   #img-profil {
     width: 180px !important;
@@ -93,11 +119,9 @@
   .arrow-container {
     width: 20px !important;
   }
-  #scroll {
-    bottom: 5px !important;
-  }
-  #scroll i {
-    font-size: 20px !important;
+   .scroll-down {
+  height: 40px !important;
+  width: 25px !important;
   }
   #profil {
     justify-items: center;
