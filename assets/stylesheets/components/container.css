@@ -97,6 +97,11 @@
     position: absolute;
     left: 165px;
   }
+  #btn-mobile-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   #img-footer {
     top: -158px !important;
     width: 205px !important;
@@ -146,8 +151,6 @@
   #btn-mobile-display {
     display: flex;
     justify-content: center;
-  }
-  #btn-mobile-display {
     align-items: center;
   }
   #card-project {
