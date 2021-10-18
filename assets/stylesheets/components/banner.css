@@ -40,13 +40,13 @@ strong, #intro h2 {
 
 /* scroll animation */
 .scroll-container {
-  bottom: 20px;
+  bottom: 2%;
 }
 
 .scroll-down {
   height: 50px;
   width: 30px;
-  border: 2px solid white;
+  border: 1.5px solid white;
   left: 50%;
   bottom: 20px;
   border-radius: 50px;
@@ -59,7 +59,7 @@ strong, #intro h2 {
   height: 10px;
   width: 10px;
   transform: translate(-50%, -100%) rotate(45deg);
-  border: 2px solid white;
+  border: 1.5px solid white;
   border-top: transparent;
   border-left: transparent;
   animation: scroll-down 1.5s ease-in-out infinite;
