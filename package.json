@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathLouss/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathLouss/portfolio/issues"
+  },
+  "homepage": "https://github.com/NathLouss/portfolio#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
+  }
+}
