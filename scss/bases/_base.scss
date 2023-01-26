@@ -8,17 +8,17 @@
 
 /* Fonts & colors */
 body {
-  background-color: white;
-  color: rgb(40, 40,40);
-  font-family: open Sans;
-  font-size: 16px;
+  font-family: $font-family-main;
+  font-size: $font-size-default;
+  color: $ternary-color;
+  // background-color: white;
 }
 
 h1 {
-  font-family: allura;
+  font-family: $font-family-title;
   font-size: 50px;
   font-weight: 500;
-  color: white;
+  color: $primary-color;
 }
 
 h2 {
