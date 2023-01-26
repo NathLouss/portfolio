@@ -1,0 +1,55 @@
+/* Icons */
+@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css');
+
+/*  */
+// html {
+//   height: 100%;
+// }
+
+/* Fonts & colors */
+body {
+  background-color: white;
+  color: rgb(40, 40,40);
+  font-family: open Sans;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: allura;
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+h2 {
+  font-family: vollkorn;
+  font-size: 40px;
+  margin: 30px 0 20px 0;
+}
+
+h3 {
+  font-family: allura;
+  font-size: 32px;
+}
+
+h2, h3, a, i {
+  color: #305357;
+}
+
+body, h1, h3 {
+  font-weight: lighter;
+}
+
+h2, a:hover {
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+  background-color: transparent;
+}
+
+a:hover {
+  color:#579299;
+}

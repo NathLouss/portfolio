@@ -1,0 +1,125 @@
+/* Icons */
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
+/*  */
+/* Fonts & colors */
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap");
+body {
+  background-color: white;
+  color: rgb(40, 40, 40);
+  font-family: open Sans;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: allura;
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+h2 {
+  font-family: vollkorn;
+  font-size: 40px;
+  margin: 30px 0 20px 0;
+}
+
+h3 {
+  font-family: allura;
+  font-size: 32px;
+}
+
+h2, h3, a, i {
+  color: #305357;
+}
+
+body, h1, h3 {
+  font-weight: lighter;
+}
+
+h2, a:hover {
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #579299;
+}
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/* Google Fonts */ /* Fonts */
+/* Colors */
+/* Breakpoints */
+
+/*# sourceMappingURL=style.css.map */
