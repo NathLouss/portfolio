@@ -1,16 +1,16 @@
-@import 'bases/base';
-@import 'bases/reset';
-@import 'bases/typography';
+@import './utils/variables';
 
-@import 'components/button';
-@import 'components/card';
-@import 'components/icon';
-@import 'components/slideshow';
+@import './bases/base';
+@import './bases/reset';
+@import './bases/typography';
 
-@import 'helper/variables';
+@import './components/button';
+@import './components/card';
+@import './components/icon';
+@import './components/slideshow';
 
-@import 'layout/container';
-@import 'layout/footer';
-@import 'layout/header';
+@import './layout/container';
+@import './layout/footer';
+@import './layout/header';
 
-@import 'pages/index';
+@import './pages/index';

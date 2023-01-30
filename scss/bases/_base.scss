@@ -1,17 +1,11 @@
 /* Icons */
 @import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css');
 
-/*  */
-// html {
-//   height: 100%;
-// }
-
 /* Fonts & colors */
 body {
   font-family: $font-family-main;
   font-size: $font-size-default;
   color: $ternary-color;
-  // background-color: white;
 }
 
 h1 {
@@ -28,7 +22,7 @@ h2 {
 }
 
 h3 {
-  font-family: allura;
+  font-family: $font-family-main;
   font-size: 32px;
 }
 

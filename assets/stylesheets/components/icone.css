@@ -4,19 +4,19 @@ i {
 
 /* icone bar medias */
 #icone-bar {
-  top: 15px;
+  /* top: 15px;
   right: 10px;
-  width: fit-content;
+  width: fit-content; */
 }
 
 .icone-medias {
-  color: white;
+  /* color: white;
   font-size: 25px;
-  padding: 0 10px;
+  padding: 0 10px; */
 }
 
 .icone-medias:hover {
-  color:#579299;
+  /* color:#579299; */
 }
 
 /* icone tech stack */

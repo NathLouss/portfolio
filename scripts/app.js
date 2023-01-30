@@ -1,7 +1,7 @@
 // animation header elements
 const title = document.querySelectorAll('h1')
-const medias = document.querySelectorAll('.medias')
-const img = document.getElementById('img-banner')
+const medias = document.querySelectorAll('.media')
+const img = document.getElementById('header__img')
 
 window.addEventListener('load', () => {
 	const TL = gsap.timeline({ paused: true })
