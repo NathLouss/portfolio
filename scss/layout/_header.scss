@@ -1,10 +1,12 @@
 header {
+  display: flex;
+  justify-content: center;
   height: 100vh;
   position: relative;
-  background-color: $quaternary-color;
-  padding: 20px 0 60px 0;
+  background-color: $green;
+  padding: 20px 50px;
 
-  & img {
+  #header__img {
     width: 300px;
     position: absolute;
     top: -35px;
@@ -12,24 +14,29 @@ header {
   }
 
   nav {    
+    position: absolute;
+    right: 20px;
     ul {
       display: flex;
       justify-content: flex-end;
-      li {
-        &.media {
-          .media__icon{
-            font-size: 25px;
-            color: $primary-color;
-            padding: 0 10px;
-            &:hover {
-              color: $secondary-color;
-            }
+        .media__icon {
+          font-size: 30px;
+          color: $beige;
+          padding: 0 10px;
+          &:hover {
+            color: $white;
           }
         }
-      }
     }
   }
 
-  
+  #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    #title__avatar {
+      width: 250px;
+    }
+  }
 }
-

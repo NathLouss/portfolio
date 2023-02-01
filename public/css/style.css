@@ -13,28 +13,30 @@ body {
 }
 
 h1 {
-  font-family: "Allura", sans-serif;
-  font-size: 50px;
-  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
   color: #ffffff;
 }
 
 h2 {
-  font-family: vollkorn;
-  font-size: 40px;
+  font-family: "Allura", sans-serif;
+  font-size: 56px;
+  color: #ffffff;
   margin: 30px 0 20px 0;
 }
 
 h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 32px;
+  font-size: 24px;
+  color: #ffffff;
 }
 
-h2, h3, a, i {
-  color: #305357;
+strong {
+  font-weight: lighter;
 }
 
-body, h1, h3 {
+body, h2, h3 {
   font-weight: lighter;
 }
 
@@ -121,29 +123,203 @@ th {
 }
 
 /* Google Fonts */
+#scrolldown__mouse {
+  background: #DDC6A4 linear-gradient(transparent 0%, transparent 50%, #ffffff 50%, #ffffff 100%);
+  position: relative;
+  width: 26px;
+  height: 44px;
+  border-radius: 100px;
+  background-size: 100% 200%;
+  animation: colorSlide 5s linear infinite, nudgeMouse 5s ease-out infinite;
+}
+#scrolldown__mouse:before, #scrolldown__mouse:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+#scrolldown__mouse:before {
+  width: 23px;
+  height: 41px;
+  background-color: #305357;
+  border-radius: 100px;
+}
+#scrolldown__mouse:after {
+  background-color: #ffffff;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  animation: trackBallSlide 5s linear infinite;
+}
+
+@keyframes colorSlide {
+  0% {
+    background-position: 0% 100%;
+  }
+  20% {
+    background-position: 0% 0%;
+  }
+  21% {
+    background-color: #DDC6A4;
+  }
+  29.99% {
+    background-color: #ffffff;
+    background-position: 0% 0%;
+  }
+  30% {
+    background-color: #DDC6A4;
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  51% {
+    background-color: #DDC6A4;
+  }
+  59% {
+    background-color: #ffffff;
+    background-position: 0% 0%;
+  }
+  60% {
+    background-color: #DDC6A4;
+    background-position: 0% 100%;
+  }
+  80% {
+    background-position: 0% 0%;
+  }
+  81% {
+    background-color: #DDC6A4;
+  }
+  90%, 100% {
+    background-color: #ffffff;
+  }
+}
+@keyframes trackBallSlide {
+  0% {
+    opacity: 1;
+    transform: scale(1) translateY(-10px);
+  }
+  6% {
+    opacity: 1;
+    transform: scale(0.9) translateY(2.5px);
+  }
+  14% {
+    opacity: 0;
+    transform: scale(0.4) translateY(20px);
+  }
+  15%, 19% {
+    opacity: 0;
+    transform: scale(0.4) translateY(-10px);
+  }
+  28%, 29.99% {
+    opacity: 1;
+    transform: scale(1) translateY(-10px);
+  }
+  30% {
+    opacity: 1;
+    transform: scale(1) translateY(-10px);
+  }
+  36% {
+    opacity: 1;
+    transform: scale(0.9) translateY(2.5px);
+  }
+  44% {
+    opacity: 0;
+    transform: scale(0.4) translateY(20px);
+  }
+  45%, 49% {
+    opacity: 0;
+    transform: scale(0.4) translateY(-10px);
+  }
+  58%, 59.99% {
+    opacity: 1;
+    transform: scale(1) translateY(-10px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1) translateY(-10px);
+  }
+  66% {
+    opacity: 1;
+    transform: scale(0.9) translateY(2.5px);
+  }
+  74% {
+    opacity: 0;
+    transform: scale(0.4) translateY(20px);
+  }
+  75%, 79% {
+    opacity: 0;
+    transform: scale(0.4) translateY(-10px);
+  }
+  88%, 100% {
+    opacity: 1;
+    transform: scale(1) translateY(-10px);
+  }
+}
+@keyframes nudgeMouse {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(4px);
+  }
+  30% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(4px);
+  }
+  90% {
+    transform: translateY(0);
+  }
+}
 header {
+  display: flex;
+  justify-content: center;
   height: 100vh;
   position: relative;
   background-color: #305357;
-  padding: 20px 0 60px 0;
+  padding: 20px 50px;
 }
-header img {
+header #header__img {
   width: 300px;
   position: absolute;
   top: -35px;
   left: -65px;
 }
+header nav {
+  position: absolute;
+  right: 20px;
+}
 header nav ul {
   display: flex;
   justify-content: flex-end;
 }
-header nav ul li.media .media__icon {
-  font-size: 25px;
-  color: #ffffff;
+header nav ul .media__icon {
+  font-size: 30px;
+  color: #DDC6A4;
   padding: 0 10px;
 }
-header nav ul li.media .media__icon:hover {
-  color: #DDC6A4;
+header nav ul .media__icon:hover {
+  color: #ffffff;
+}
+header #title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+header #title #title__avatar {
+  width: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */

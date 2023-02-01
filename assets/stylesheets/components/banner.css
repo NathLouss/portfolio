@@ -6,10 +6,10 @@
 }
 
 /* Picture & introduction */
-#profil {
+/* #profil {
   grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
   column-gap: 20px;
-}
+} */
 
 #intro {
   margin: 0 10px;
@@ -39,19 +39,19 @@ strong, #intro h2 {
 }
 
 /* scroll animation */
-.scroll-container {
+/* .scroll-container {
   bottom: 2%;
-}
+} */
 
 .scroll-down {
-  height: 50px;
-  width: 30px;
+  /* height: 50px;
+  width: 30px; */
   /* border: 1.5px solid white !important; */
-  left: 50%;
+  /* left: 50%;
   bottom: 20px;
-}
+} */
 
-.scroll-down::after {
+/* .scroll-down::after {
   content: "";
   position: absolute;
   top: 20%;
@@ -80,4 +80,4 @@ strong, #intro h2 {
     top: 90%;
     opacity: 0;
   }
-}
+} */
