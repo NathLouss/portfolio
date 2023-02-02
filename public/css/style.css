@@ -142,8 +142,8 @@ th {
   margin: auto;
 }
 #scrolldown__mouse:before {
-  width: 23px;
-  height: 41px;
+  width: 21px;
+  height: 39px;
   background-color: #305357;
   border-radius: 100px;
 }
@@ -285,6 +285,8 @@ th {
 header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   position: relative;
   background-color: #305357;
@@ -298,6 +300,7 @@ header #header__img {
 }
 header nav {
   position: absolute;
+  top: 20px;
   right: 20px;
 }
 header nav ul {
@@ -320,6 +323,10 @@ header #title {
 }
 header #title #title__avatar {
   width: 250px;
+}
+header #scrolldown {
+  position: absolute;
+  bottom: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */

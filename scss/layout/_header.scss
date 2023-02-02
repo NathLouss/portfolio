@@ -1,6 +1,8 @@
 header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   position: relative;
   background-color: $green;
@@ -15,6 +17,7 @@ header {
 
   nav {    
     position: absolute;
+    top: 20px;
     right: 20px;
     ul {
       display: flex;
@@ -38,5 +41,10 @@ header {
     #title__avatar {
       width: 250px;
     }
+  }
+
+  #scrolldown {
+    position: absolute;
+    bottom: 35px;
   }
 }
