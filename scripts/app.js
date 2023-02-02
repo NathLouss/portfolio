@@ -1,5 +1,5 @@
 // animation header elements
-const title = document.querySelectorAll('h1')
+const title = document.getElementById('title__info')
 const medias = document.querySelectorAll('.media')
 const img = document.getElementById('header__img')
 
