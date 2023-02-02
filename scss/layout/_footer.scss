@@ -1,0 +1,26 @@
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  #footer__leaf{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    width: 230px;
+  }
+
+  #footer__content {
+    #footer__content__up {
+      display: flex;
+      justify-content: center;
+    }
+    #footer__content__down {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 15px;
+      }
+    }
+  }
+}

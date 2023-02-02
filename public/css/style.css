@@ -282,6 +282,39 @@ th {
     transform: translateY(0);
   }
 }
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #loading {
+  font-size: 50px;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+footer #footer__leaf {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  width: 230px;
+}
+footer #footer__content #footer__content__up {
+  display: flex;
+  justify-content: center;
+}
+footer #footer__content #footer__content__down {
+  display: flex;
+  justify-content: center;
+}
+footer #footer__content #footer__content__down img {
+  width: 15px;
+}
+
 header {
   display: flex;
   justify-content: center;
