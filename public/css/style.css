@@ -6,9 +6,14 @@
 /* Fonts & colors */
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
+  font-weight: 500;
   color: #545454;
 }
 
@@ -30,28 +35,6 @@ h3 {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   color: #ffffff;
-}
-
-strong {
-  font-weight: lighter;
-}
-
-body, h2, h3 {
-  font-weight: lighter;
-}
-
-h2, a:hover {
-  font-weight: bolder;
-}
-
-a {
-  text-decoration: none;
-  font-weight: normal;
-  background-color: transparent;
-}
-
-a:hover {
-  color: #579299;
 }
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
@@ -292,7 +275,8 @@ main #loading {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 50px;
+  font-size: 36px;
+  color: #B0836D;
 }
 main #loading #progress {
   background: #305357;
@@ -320,7 +304,7 @@ main #loading #progress #progress-value {
     width: 0;
   }
   100% {
-    width: 60%;
+    width: 40%;
   }
 }
 footer {
@@ -393,6 +377,9 @@ header #title {
 }
 header #title #title__avatar {
   width: 250px;
+}
+header #title h3, header #title strong {
+  font-weight: lighter;
 }
 header #scrolldown {
   position: absolute;

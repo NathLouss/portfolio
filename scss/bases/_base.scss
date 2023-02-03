@@ -2,9 +2,14 @@
 @import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css');
 
 /* Fonts & colors */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $font-family-main;
   font-size: $font-size-default;
+  font-weight: 500;
   color: $grey;
 }
 
@@ -28,27 +33,28 @@ h3 {
   color: $white;
 }
 
-strong {
-  font-weight: lighter;
-}
+// strong {
+//   font-weight: lighter;
+// }
+
 // h2, h3, a, i {
 //   color: #305357;
 // }
 
-body, h2, h3 {
-  font-weight: lighter;
-}
+// body, h2, h3 {
+//   font-weight: lighter;
+// }
 
-h2, a:hover {
-  font-weight: bolder;
-}
+// h2, a:hover {
+//   font-weight: bolder;
+// }
 
-a {
-  text-decoration: none;
-  font-weight: normal;
-  background-color: transparent;
-}
+// a {
+//   text-decoration: none;
+//   font-weight: normal;
+//   background-color: transparent;
+// }
 
-a:hover {
-  color:#579299;
-}
+// a:hover {
+//   color:#579299;
+// }
