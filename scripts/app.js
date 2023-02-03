@@ -15,69 +15,69 @@ window.addEventListener('load', () => {
 
 // animation skills
 
-const tech = document.querySelectorAll('#icone-tech li i')
+// const tech = document.querySelectorAll('#icone-tech li i')
 
-tech.forEach((tech) => {
-	tech.addEventListener('mouseover', (event) => {
-		event.currentTarget.classList.add('icone-shadow')
-		setTimeout(() => tech.classList.add('no-shadow'), 1000)
-		setTimeout(() => tech.classList.remove('icone-shadow', 'no-shadow'), 2000)
-	})
-})
+// tech.forEach((tech) => {
+// 	tech.addEventListener('mouseover', (event) => {
+// 		event.currentTarget.classList.add('icone-shadow')
+// 		setTimeout(() => tech.classList.add('no-shadow'), 1000)
+// 		setTimeout(() => tech.classList.remove('icone-shadow', 'no-shadow'), 2000)
+// 	})
+// })
 
 // animation slideshow Eventpik
-var EslideIndex = 1
-EshowSlides(EslideIndex)
+// var EslideIndex = 1
+// EshowSlides(EslideIndex)
 
-function EplusSlides(n) {
-	EshowSlides((EslideIndex += n))
-}
+// function EplusSlides(n) {
+// 	EshowSlides((EslideIndex += n))
+// }
 
-function EcurrentSlide(n) {
-	EshowSlides((EslideIndex = n))
-}
+// function EcurrentSlide(n) {
+// 	EshowSlides((EslideIndex = n))
+// }
 
-function EshowSlides(n) {
-	var i
-	var Eslides = document.getElementsByClassName('ESlides')
-	if (n > Eslides.length) {
-		EslideIndex = 1
-	}
-	if (n < 1) {
-		EslideIndex = Eslides.length
-	}
-	for (i = 0; i < Eslides.length; i++) {
-		Eslides[i].style.display = 'none'
-	}
-	Eslides[EslideIndex - 1].style.display = 'block'
-}
+// function EshowSlides(n) {
+// 	var i
+// 	var Eslides = document.getElementsByClassName('ESlides')
+// 	if (n > Eslides.length) {
+// 		EslideIndex = 1
+// 	}
+// 	if (n < 1) {
+// 		EslideIndex = Eslides.length
+// 	}
+// 	for (i = 0; i < Eslides.length; i++) {
+// 		Eslides[i].style.display = 'none'
+// 	}
+// 	Eslides[EslideIndex - 1].style.display = 'block'
+// }
 
 // animation slideshow Buddy Biker
-var BBslideIndex = 1
-BBshowSlides(BBslideIndex)
+// var BBslideIndex = 1
+// BBshowSlides(BBslideIndex)
 
-function BBplusSlides(n) {
-	BBshowSlides((BBslideIndex += n))
-}
+// function BBplusSlides(n) {
+// 	BBshowSlides((BBslideIndex += n))
+// }
 
-function BBcurrentSlide(n) {
-	BBshowSlides((BBslideIndex = n))
-}
+// function BBcurrentSlide(n) {
+// 	BBshowSlides((BBslideIndex = n))
+// }
 
-function BBshowSlides(n) {
-	var i
-	var BBslides = document.getElementsByClassName('BBSlides')
-	if (n > BBslides.length) {
-		BBslideIndex = 1
-	}
-	if (n < 1) {
-		BBslideIndex = BBslides.length
-	}
-	for (i = 0; i < BBslides.length; i++) {
-		BBslides[i].style.display = 'none'
-	}
-	BBslides[BBslideIndex - 1].style.display = 'block'
-}
+// function BBshowSlides(n) {
+// 	var i
+// 	var BBslides = document.getElementsByClassName('BBSlides')
+// 	if (n > BBslides.length) {
+// 		BBslideIndex = 1
+// 	}
+// 	if (n < 1) {
+// 		BBslideIndex = BBslides.length
+// 	}
+// 	for (i = 0; i < BBslides.length; i++) {
+// 		BBslides[i].style.display = 'none'
+// 	}
+// 	BBslides[BBslideIndex - 1].style.display = 'block'
+// }
 
 //  animation etc
 const etc = document.getElementById('etc')
@@ -92,9 +92,9 @@ new Typewriter(etc, {
 	.start()
 
 //  animation text-footer
-const txt = document.getElementById('type')
+const animatedText = document.getElementById('footer__content__up--animation')
 
-new Typewriter(txt, {
+new Typewriter(animatedText, {
 	deleteSpeed: 70,
 	loop: true,
 })
