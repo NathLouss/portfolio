@@ -1,4 +1,4 @@
-// animation header elements
+// header elements animation
 const title = document.getElementById('title__info')
 const medias = document.querySelectorAll('.media')
 const img = document.getElementById('header__img')
@@ -13,8 +13,56 @@ window.addEventListener('load', () => {
 	TL.play()
 })
 
-// animation skills
+// text-footer animation
+const animatedText = document.getElementById('footer__content__up--animation')
 
+new Typewriter(animatedText, {
+	deleteSpeed: 70,
+	loop: true,
+})
+	.typeString('passion !')
+	.pauseFor(1000)
+	.deleteChars(9)
+	.typeString('style !')
+	.pauseFor(1000)
+	.deleteChars(7)
+	.typeString('fun !')
+	.pauseFor(1000)
+	.start()
+
+// loading animation
+function scrollAnimation() {
+	debugger
+	let loadingBar
+	let windowHeight
+
+	function initLoading() {
+		loadingBar = document.getElementById('#progress_value')
+		windowHeight = window.innerHeight
+	}
+
+	function checkPosition() {
+		for (var i = 0; i < loadingBar.length; i++) {
+			const loadingBar = loadingBar[i]
+			const positionFromTop = loadingBar[i].getBoundingClientRect().top
+
+			if (positionFromTop - windowHeight <= 0) {
+				loadingBar.classList.add('animation_scroll')
+				// element.classList.remove('hidden')
+			}
+		}
+	}
+
+	window.addEventListener('scroll', checkPosition)
+	window.addEventListener('resize', initLoading)
+
+	initLoading()
+	checkPosition()
+}
+
+scrollAnimation()
+
+// animation skills
 // const tech = document.querySelectorAll('#icone-tech li i')
 
 // tech.forEach((tech) => {
@@ -80,30 +128,13 @@ window.addEventListener('load', () => {
 // }
 
 //  animation etc
-const etc = document.getElementById('etc')
+// const etc = document.getElementById('etc')
 
-new Typewriter(etc, {
-	loop: true,
-	cursor: '',
-})
-	.changeDelay(200)
-	.typeString('...')
-	.pauseFor(1000)
-	.start()
-
-//  animation text-footer
-const animatedText = document.getElementById('footer__content__up--animation')
-
-new Typewriter(animatedText, {
-	deleteSpeed: 70,
-	loop: true,
-})
-	.typeString('passion !')
-	.pauseFor(1000)
-	.deleteChars(9)
-	.typeString('style !')
-	.pauseFor(1000)
-	.deleteChars(7)
-	.typeString('fun !')
-	.pauseFor(1000)
-	.start()
+// new Typewriter(etc, {
+// 	loop: true,
+// 	cursor: '',
+// })
+// 	.changeDelay(200)
+// 	.typeString('...')
+// 	.pauseFor(1000)
+// 	.start()

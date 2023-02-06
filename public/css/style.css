@@ -290,8 +290,7 @@ main #loading #progress {
   width: 500px;
   margin-top: 50px;
 }
-main #loading #progress #progress-value {
-  animation: load 3s normal forwards;
+main #loading #progress #progress_value {
   box-shadow: 0 10px 40px -10px #DDC6A4;
   border-radius: 100px;
   background: #ffffff;
@@ -307,6 +306,14 @@ main #loading #progress #progress-value {
     width: 40%;
   }
 }
+.animation_scroll {
+  animation: load 3s normal forwards;
+}
+
+.hidden {
+  opacity: 0;
+}
+
 footer {
   position: relative;
   display: flex;
