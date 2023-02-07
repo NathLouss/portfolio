@@ -18,6 +18,5 @@
   "trailingComma": "es5",
   "useTabs": true,
   "vueIndentScriptAndStyle": false,
-  // "filepath": "/home/nath/code/NathLouss/Les-Petits-Plats/scripts/api/services.js",
   "parser": "babel"
 }

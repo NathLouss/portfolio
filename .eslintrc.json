@@ -15,10 +15,6 @@
             "error",
             "tab"
         ],
-        // "linebreak-style": [
-        //     "error",
-        //     "windows"
-        // ],
         "semi": [
             "error",
             "never"

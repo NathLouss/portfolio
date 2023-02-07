@@ -24,7 +24,6 @@ main {
       margin-top: 50px;
       
       #progress_value {
-        // animation: load 3s normal forwards;
         box-shadow: 0 10px 40px -10px $beige;
         border-radius: 100px;
         background: $white;
@@ -35,7 +34,6 @@ main {
   }
 }
 
-
 @keyframes load {
   0% { width: 0; }
   100% { width: 40%; }
@@ -43,8 +41,4 @@ main {
 
 .animation_scroll {
   animation: load 3s normal forwards;
-}
-
-.hidden {
-  opacity: 0;
 }

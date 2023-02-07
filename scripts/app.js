@@ -13,23 +13,6 @@ window.addEventListener('load', () => {
 	TL.play()
 })
 
-// text-footer animation
-const animatedText = document.getElementById('footer__content__up--animation')
-
-new Typewriter(animatedText, {
-	deleteSpeed: 70,
-	loop: true,
-})
-	.typeString('passion !')
-	.pauseFor(1000)
-	.deleteChars(9)
-	.typeString('style !')
-	.pauseFor(1000)
-	.deleteChars(7)
-	.typeString('fun !')
-	.pauseFor(1000)
-	.start()
-
 // loading animation on scroll
 function scrollAnimation() {
 	let loadingBar
@@ -59,79 +42,19 @@ function scrollAnimation() {
 
 scrollAnimation()
 
-// animation skills
-// const tech = document.querySelectorAll('#icone-tech li i')
+// text-footer animation
+const animatedText = document.getElementById('footer__content__up--animation')
 
-// tech.forEach((tech) => {
-// 	tech.addEventListener('mouseover', (event) => {
-// 		event.currentTarget.classList.add('icone-shadow')
-// 		setTimeout(() => tech.classList.add('no-shadow'), 1000)
-// 		setTimeout(() => tech.classList.remove('icone-shadow', 'no-shadow'), 2000)
-// 	})
-// })
-
-// animation slideshow Eventpik
-// var EslideIndex = 1
-// EshowSlides(EslideIndex)
-
-// function EplusSlides(n) {
-// 	EshowSlides((EslideIndex += n))
-// }
-
-// function EcurrentSlide(n) {
-// 	EshowSlides((EslideIndex = n))
-// }
-
-// function EshowSlides(n) {
-// 	var i
-// 	var Eslides = document.getElementsByClassName('ESlides')
-// 	if (n > Eslides.length) {
-// 		EslideIndex = 1
-// 	}
-// 	if (n < 1) {
-// 		EslideIndex = Eslides.length
-// 	}
-// 	for (i = 0; i < Eslides.length; i++) {
-// 		Eslides[i].style.display = 'none'
-// 	}
-// 	Eslides[EslideIndex - 1].style.display = 'block'
-// }
-
-// animation slideshow Buddy Biker
-// var BBslideIndex = 1
-// BBshowSlides(BBslideIndex)
-
-// function BBplusSlides(n) {
-// 	BBshowSlides((BBslideIndex += n))
-// }
-
-// function BBcurrentSlide(n) {
-// 	BBshowSlides((BBslideIndex = n))
-// }
-
-// function BBshowSlides(n) {
-// 	var i
-// 	var BBslides = document.getElementsByClassName('BBSlides')
-// 	if (n > BBslides.length) {
-// 		BBslideIndex = 1
-// 	}
-// 	if (n < 1) {
-// 		BBslideIndex = BBslides.length
-// 	}
-// 	for (i = 0; i < BBslides.length; i++) {
-// 		BBslides[i].style.display = 'none'
-// 	}
-// 	BBslides[BBslideIndex - 1].style.display = 'block'
-// }
-
-//  animation etc
-// const etc = document.getElementById('etc')
-
-// new Typewriter(etc, {
-// 	loop: true,
-// 	cursor: '',
-// })
-// 	.changeDelay(200)
-// 	.typeString('...')
-// 	.pauseFor(1000)
-// 	.start()
+new Typewriter(animatedText, {
+	deleteSpeed: 70,
+	loop: true,
+})
+	.typeString('passion !')
+	.pauseFor(1000)
+	.deleteChars(9)
+	.typeString('style !')
+	.pauseFor(1000)
+	.deleteChars(7)
+	.typeString('fun !')
+	.pauseFor(1000)
+	.start()

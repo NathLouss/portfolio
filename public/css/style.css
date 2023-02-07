@@ -310,10 +310,6 @@ main #loading #progress #progress_value {
   animation: load 3s normal forwards;
 }
 
-.hidden {
-  opacity: 0;
-}
-
 footer {
   position: relative;
   display: flex;
