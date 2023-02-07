@@ -1,6 +1,7 @@
 /* Fonts */
 /* Colors */
 /* Breakpoints */
+/* Animation variables for scroll animation */
 /* Icons */
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 /* Fonts & colors */
@@ -35,6 +36,10 @@ h3 {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   color: #ffffff;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
