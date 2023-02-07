@@ -2,147 +2,10 @@
 /* Colors */
 /* Breakpoints */
 /* Animation variables for scroll animation */
-/* Icons */
+/* Scroll mouse */
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
-/* Fonts & colors */
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap");
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #545454;
-}
-
-h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-weight: lighter;
-  color: #ffffff;
-}
-
-h2 {
-  font-family: "Allura", sans-serif;
-  font-size: 56px;
-  color: #ffffff;
-  margin: 30px 0 20px 0;
-}
-
-h3 {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  color: #ffffff;
-}
-
-a {
-  text-decoration: none;
-}
-
-/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
-html,
-body,
-p,
-ol,
-ul,
-li,
-dl,
-dt,
-dd,
-blockquote,
-figure,
-fieldset,
-legend,
-textarea,
-pre,
-iframe,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-button,
-input,
-select {
-  margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-img,
-video {
-  height: auto;
-  max-width: 100%;
-}
-
-iframe {
-  border: 0;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-td,
-th {
-  padding: 0;
-}
-
-/* Google Fonts */
-#scrolldown__mouse {
-  background: #DDC6A4 linear-gradient(transparent 0%, transparent 50%, #ffffff 50%, #ffffff 100%);
-  position: relative;
-  width: 26px;
-  height: 44px;
-  border-radius: 100px;
-  background-size: 100% 200%;
-  animation: colorSlide 5s linear infinite, nudgeMouse 5s ease-out infinite;
-}
-#scrolldown__mouse:before, #scrolldown__mouse:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-}
-#scrolldown__mouse:before {
-  width: 21px;
-  height: 39px;
-  background-color: #305357;
-  border-radius: 100px;
-}
-#scrolldown__mouse:after {
-  background-color: #ffffff;
-  width: 5px;
-  height: 5px;
-  border-radius: 100%;
-  animation: trackBallSlide 5s linear infinite;
-}
-
 @keyframes colorSlide {
   0% {
     background-position: 0% 100%;
@@ -270,39 +133,7 @@ th {
     transform: translateY(0);
   }
 }
-main {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main #loading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 36px;
-  color: #B0836D;
-}
-main #loading #progress {
-  background: #305357;
-  justify-content: flex-start;
-  border-radius: 100px;
-  align-items: center;
-  position: relative;
-  padding: 0 5px;
-  display: flex;
-  height: 40px;
-  width: 500px;
-  margin-top: 50px;
-}
-main #loading #progress #progress_value {
-  box-shadow: 0 10px 40px -10px #DDC6A4;
-  border-radius: 100px;
-  background: #ffffff;
-  height: 30px;
-  width: 0;
-}
-
+/* Loading bar */
 @keyframes load {
   0% {
     width: 0;
@@ -311,8 +142,155 @@ main #loading #progress #progress_value {
     width: 40%;
   }
 }
-.animation_scroll {
-  animation: load 3s normal forwards;
+/* Scroll animation  */
+/* Media queries */
+/* Icons */
+/* Fonts & colors */
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #545454;
+}
+html body h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #ffffff;
+}
+@media all and (max-width: 800px) {
+  html body h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+html body h2 {
+  font-family: "Allura", sans-serif;
+  font-size: 56px;
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+@media all and (max-width: 800px) {
+  html body h2 {
+    font-size: 38px;
+  }
+}
+html body h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+@media all and (max-width: 800px) {
+  html body h3 {
+    font-size: 20px;
+  }
+}
+html body a {
+  text-decoration: none;
+}
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/* Google Fonts */
+#scrolldown__mouse {
+  background: #DDC6A4 linear-gradient(transparent 0%, transparent 50%, #ffffff 50%, #ffffff 100%);
+  position: relative;
+  width: 26px;
+  height: 44px;
+  border-radius: 100px;
+  background-size: 100% 200%;
+  animation: colorSlide 5s linear infinite, nudgeMouse 5s ease-out infinite;
+}
+#scrolldown__mouse:before, #scrolldown__mouse:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+#scrolldown__mouse:before {
+  width: 21px;
+  height: 39px;
+  background-color: #305357;
+  border-radius: 100px;
+}
+#scrolldown__mouse:after {
+  background-color: #ffffff;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  animation: trackBallSlide 5s linear infinite;
 }
 
 footer {
@@ -326,6 +304,11 @@ footer #footer__leaf {
   bottom: 0;
   right: 0;
   width: 230px;
+}
+@media all and (max-width: 800px) {
+  footer #footer__leaf {
+    width: 150px;
+  }
 }
 footer #footer__content #footer__content__up {
   display: flex;
@@ -354,11 +337,21 @@ header {
   background-color: #305357;
   padding: 20px 50px;
 }
+@media all and (max-width: 1025px) {
+  header {
+    padding: 20px;
+  }
+}
 header #header__img {
   width: 300px;
   position: absolute;
-  top: -35px;
-  left: -65px;
+  top: -30px;
+  left: -50px;
+}
+@media all and (max-width: 800px) {
+  header #header__img {
+    width: 250px;
+  }
 }
 header nav {
   position: absolute;
@@ -383,15 +376,98 @@ header #title {
   align-items: center;
   column-gap: 50px;
 }
+@media all and (max-width: 800px) {
+  header #title {
+    flex-direction: column;
+  }
+}
 header #title #title__avatar {
   width: 250px;
 }
-header #title h3, header #title strong {
+@media all and (max-width: 800px) {
+  header #title #title__avatar {
+    width: 200px;
+  }
+}
+@media all and (max-width: 1025px) {
+  header #title #title__avatar {
+    width: 220px;
+  }
+}
+@media all and (max-width: 800px) {
+  header #title #title__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+header #title #title__content {
+  display: flex;
+  flex-direction: column;
+}
+@media all and (max-width: 800px) {
+  header #title #title__content {
+    align-items: center;
+  }
+}
+header #title h3,
+header #title strong {
   font-weight: lighter;
 }
 header #scrolldown {
   position: absolute;
   bottom: 35px;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px;
+  color: #B0836D;
+}
+main #loading p {
+  text-align: center;
+}
+@media all and (max-width: 800px) {
+  main #loading p {
+    font-size: 28px;
+    padding: 0 20px;
+  }
+}
+main #loading #progress {
+  background: #305357;
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 500px;
+  margin-top: 50px;
+}
+@media all and (max-width: 800px) {
+  main #loading #progress {
+    width: 300px;
+  }
+}
+main #loading #progress #progress_value {
+  box-shadow: 0 10px 40px -10px #DDC6A4;
+  border-radius: 100px;
+  background: #ffffff;
+  height: 30px;
+  width: 0;
+}
+
+.animation_scroll {
+  animation: load 3s normal forwards;
 }
 
 /*# sourceMappingURL=style.css.map */

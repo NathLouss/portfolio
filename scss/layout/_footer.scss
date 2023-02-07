@@ -9,6 +9,9 @@ footer {
     bottom: 0;
     right: 0;
     width: 230px;
+    @include respond-to(small-screen) {
+      width: 150px;
+    }
   }
 
   #footer__content {

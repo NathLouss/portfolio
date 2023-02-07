@@ -1,4 +1,4 @@
-// Scroll animation
+/* Scroll animation  */ 
 @mixin bgGradient {
   background:
     $colorOutlineFade
@@ -8,4 +8,29 @@
       $colorOutline 50%,
       $colorOutline 100%
     );
+}
+
+/* Media queries */ 
+@mixin respond-to($media) {
+  @if $media == verysmall-screen {
+    @media all and (max-width: $verysmallScreen) {
+      @content;
+    }
+  }
+
+  @if $media == small-screen {
+    @media all and (max-width: $smallScreen) {
+      @content;
+    }
+  }
+  @if $media == large-screen {
+    @media all and (max-width: $largeScreen) {
+      @content;
+    }
+  }
+  @if $media == xl-screen {
+    @media all and (max-width: $xlScreen) {
+      @content;
+    }
+  }
 }

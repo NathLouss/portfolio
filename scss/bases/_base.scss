@@ -4,35 +4,50 @@
 /* Fonts & colors */
 html {
   scroll-behavior: smooth;
+
+  body {
+    font-family: $mainFont;
+    font-size: $defaultFontSize;
+    font-weight: 500;
+    color: $grey;
+  
+    h1 {
+      font-family: $mainFont;
+      font-size: 24px;
+      font-weight: lighter;
+      color: $white;            
+      @include respond-to(small-screen) {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+    
+    h2 {
+      font-family: $handFont;
+      font-size: 56px;      
+      color: $white;
+      // margin: 30px 0 20px 0;
+      margin: 0 0 20px 0;
+      @include respond-to(small-screen) {
+        font-size: 38px;
+      }
+    }
+  
+    h3 {
+      font-family: $mainFont;
+      font-size: 24px;
+      color: $white;
+      @include respond-to(small-screen) {
+        font-size: 20px;
+      }
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
-body {
-  font-family: $mainFont;
-  font-size: $defaultFontSize;
-  font-weight: 500;
-  color: $grey;
-}
 
-h1 {
-  font-family: $mainFont;
-  font-size: 24px;
-  font-weight: lighter;
-  color: $white
-}
 
-h2 {
-  font-family: $handFont;
-  font-size: 56px;      
-  color: $white;
-  margin: 30px 0 20px 0;
-}
 
-h3 {
-  font-family: $mainFont;
-  font-size: 24px;
-  color: $white;
-}
-
-a {
-  text-decoration: none;
-}
