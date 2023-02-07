@@ -30,26 +30,23 @@ new Typewriter(animatedText, {
 	.pauseFor(1000)
 	.start()
 
-// loading animation
+// loading animation on scroll
 function scrollAnimation() {
-	debugger
 	let loadingBar
 	let windowHeight
 
 	function initLoading() {
-		loadingBar = document.getElementById('#progress_value')
+		loadingBar = document.getElementById('progress_value')
 		windowHeight = window.innerHeight
 	}
 
 	function checkPosition() {
-		for (var i = 0; i < loadingBar.length; i++) {
-			const loadingBar = loadingBar[i]
-			const positionFromTop = loadingBar[i].getBoundingClientRect().top
+		const positionFromTop = loadingBar.getBoundingClientRect().top
 
-			if (positionFromTop - windowHeight <= 0) {
-				loadingBar.classList.add('animation_scroll')
-				// element.classList.remove('hidden')
-			}
+		if (positionFromTop - windowHeight <= 0) {
+			loadingBar.classList.add('animation_scroll')
+		} else {
+			loadingBar.classList.remove('animation_scroll')
 		}
 	}
 
