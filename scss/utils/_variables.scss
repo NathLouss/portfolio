@@ -1,0 +1,35 @@
+/* Fonts */
+$handFont: 'Allura', sans-serif;
+$mainFont: 'Raleway', sans-serif;
+$defaultFontSize: 16px;
+ 
+/* Colors */
+$white: #ffffff;
+$beige: #DDC6A4;
+$taupe: #B0836D;
+$grey: #545454;
+$green: #305357;
+
+/* Breakpoints */
+$verysmallScreen: 420px;
+$smallScreen: 800px;
+$largeScreen: 1025px; 
+$xlScreen: 1145px; 
+
+/* Animation variables for scroll animation */
+$colorBg: $green;
+$colorOutline: $white;
+$colorOutlineFade: $beige;
+
+$widthMouse: 26px;
+$heightMouse: 44px;
+$borderMouse: 5px;
+
+$posMouse: 4px;
+$posText: 2px;
+
+$sizeTrackball: 5px;
+$posTrackball: 10px;
+$shrinkTrackball: 0.4;
+
+$animDuration: 5s;

@@ -1,0 +1,50 @@
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    color: $taupe;
+
+    p {
+      text-align: center;
+      @include respond-to(small-screen) {
+        font-size: 28px;
+        padding: 0 20px;
+      }
+    }
+
+    #progress {
+      background: $green;
+      justify-content: flex-start;
+      border-radius: 100px;
+      align-items: center;
+      position: relative;
+      padding: 0 5px;
+      display: flex;
+      height: 40px;
+      width: 500px;
+      margin-top: 50px;
+      @include respond-to(small-screen) {
+        width: 300px;
+      }
+    
+      #progress_value {
+        box-shadow: 0 10px 40px -10px $beige;
+        border-radius: 100px;
+        background: $white;
+        height: 30px;
+        width: 0;
+      }
+    }
+  }
+}
+
+.animation_scroll {
+  animation: load 3s normal forwards;
+}
