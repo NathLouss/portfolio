@@ -14,22 +14,21 @@ footer {
     }
   }
 
-  #footer__content {
-    #footer__content__up {
-      display: flex;
-      justify-content: center;
-      padding-bottom: 10px;
-      #footer__content__up--animation {
-        padding-left: 5px;
-      }
+  #footer__content__up {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    #footer__content__up--animation {
+      padding-left: 5px;
     }
-    #footer__content__down {
-      display: flex;
-      justify-content: center;
-      img {
-        width: 25px;
-        padding-left: 5px;
-      }
+  }
+
+  #footer__content__down {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 25px;
+      padding-left: 5px;
     }
   }
 }
