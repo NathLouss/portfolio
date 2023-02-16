@@ -88,5 +88,8 @@ header {
   #scrolldown {
     position: absolute;
     bottom: 35px;
+    @include respond-to(small-screen) {
+      bottom: 60px;
+    }
   }
 }
